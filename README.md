@@ -5,7 +5,7 @@ This is a simple command-line tool for creating icons with customizable backgrou
 ## Usage
 
 ```
-im [-h] [-c COLOR] [-r RADIUS] -i ICON [-s SAVE]
+im [-h] [-c COLOR] [-r RADIUS] [-i ICON] [-s SAVE]
 ```
 
 ### Arguments
@@ -13,7 +13,7 @@ im [-h] [-c COLOR] [-r RADIUS] -i ICON [-s SAVE]
 * `-h`, `--help`: Show help message and exit.
 * `-c COLOR`, `--color COLOR`: Specify background color in hexadecimal format (default: #0A1423).
 * `-r RADIUS`, `--radius RADIUS`: Specify border radius in pixels (default: 16 px).
-* `-i ICON`, `--icon ICON`: Path to the icon image (required).
+* `-i ICON`, `--icon ICON`: Path to the icon image.
 * `-s SAVE`, `--save SAVE`: Specify the path to save the generated icon image. If not provided, it will be saved in the 'Downloads' directory with the filename 'icon.png'.
 
 ## Example
