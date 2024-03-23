@@ -5,7 +5,7 @@ This is a simple command-line tool for creating icons with customizable backgrou
 ## Usage
 
 ```
-python icon_maker.py [-h] [-c COLOR] [-r RADIUS] -i ICON [-s SAVE]
+im [-h] [-c COLOR] [-r RADIUS] -i ICON [-s SAVE]
 ```
 
 ### Arguments
