@@ -15,6 +15,7 @@ im [-h] [-c COLOR] [-r RADIUS] [-i ICON] [-s SAVE]
 * `-r RADIUS`, `--radius RADIUS`: Specify border radius in pixels (default: 16 px).
 * `-i ICON`, `--icon ICON`: Path to the icon image.
 * `-s SAVE`, `--save SAVE`: Specify the path to save the generated icon image. If not provided, it will be saved in the 'Downloads' directory with the filename 'icon.png'.
+* `-g`, `--gray`: Apply grayscale filter.
 
 ## Example
 

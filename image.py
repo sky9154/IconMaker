@@ -1,4 +1,6 @@
 from PIL import Image, ImageDraw
+import numpy as np
+import cv2
 
 
 class Backround:
@@ -37,3 +39,7 @@ class Icon:
     self.icon = self.icon.resize(size)
     self.width = size[0]
     self.height = size[1]
+
+  def grayscale_filter(self) -> None:
+    gray_image = cv2.cvtColor(np.array(self.icon), cv2.COLOR_BGR2GRAY)
+    self.icon = Image.fromarray(gray_image)
