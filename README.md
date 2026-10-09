@@ -1,5 +1,7 @@
 # Icon Maker
 
+![Icon Maker](./docs/images/readme-banner.png)
+
 A Python command-line tool for generating square icons with a custom background, rounded corners, and an optional foreground image.
 
 ## About
@@ -107,6 +109,9 @@ If no save path is specified, the generated image is saved as:
 
 ```text
 IconMaker/
+├── docs/
+│   └── images/
+│       └── readme-banner.png
 ├── LICENSE
 ├── README.md
 ├── icon.ico
@@ -115,6 +120,7 @@ IconMaker/
 └── main.py
 ```
 
+- `docs/images/` contains images and other visual assets used in the documentation.
 - `main.py` defines the command-line interface and controls the icon generation workflow.
 - `image.py` contains the background and foreground image processing logic.
 - `im.exe` is the executable included in the repository.
