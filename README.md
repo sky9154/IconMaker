@@ -1,6 +1,6 @@
 # Icon Maker
 
-![Icon Maker](./docs/images/readme-banner.png)
+![Icon Maker](./docs/images/readme-banner.webp)
 
 A Python command-line tool for generating square icons with a custom background, rounded corners, and an optional foreground image.
 
